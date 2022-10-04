@@ -102,8 +102,120 @@ ul li a:hover .name span{
 	transform: translateY(20px);
 }
 
+.Registration-Form{
+	position: absolute;
+	/*inspect 
+	top: 30%;
+	left: 23%;
+	height: 70vh;
+	width: 50vh; */
+	/* 1352-1007 
+	top: 18%;
+	left: 11%;
+	height: 80vh;
+	width: 105vh; */
+	top: 18%;
+	left: 15.5%;
+	height: 80vh;
+	width: 134vh;
+	background: #fff; 
+	border-radius: 10px; /* add the border radius */
+	box-shadow: 0 10px 30px rgba(0,0,0,.3)
+}
 
+.Registration-Form .text{
+	
+	margin-left: 20px;
+	color: blue;	
+}
 
+.Registration-Form .namelabel {
+	margin-top: 15px;
+    font-size: x-large;
+	margin-left: 20px;
+}
+
+.Registration-Form .name {
+	
+}
+
+.Registration-Form .mobilelabel {
+	font-size: x-large;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+.Registration-Form .countrycode {
+
+}
+
+.Registration-Form .mobileno {
+
+}
+
+.Registration-Form .emaillabel{
+	margin-top: 15px;
+	font-size: x-large;
+	margin-left: 20px;
+}
+
+.Registration-Form .email{
+
+}
+
+.Registration-Form .userlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .userid{
+
+}
+
+.Registration-Form .passlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .pass{
+
+}
+
+.Registration-Form .confirmlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .confirm{
+
+}
+
+.Registration-Form .pinlable {
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .pin{
+
+}
+
+.Registration-Form .checklable{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .check {
+
+}
+
+.Registration-Form .next{
+	border-radius: 15px;
+}
 
 
 
