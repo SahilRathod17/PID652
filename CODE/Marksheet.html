@@ -85,7 +85,96 @@
                 </a>
             </li>
         </ul>
-    </body>
-</html>
+
+
+        <Container class="Registration-Form">
+            <form>
+
+                <h1 class="text">Upload 10th Marksheet/Certificate</h1>
+
+
+                <div class="box1">
+                <label class="l namelabel">Document No.</label>
+            <input class="next name" type="text"><br>
+
+
+            <div  class="up-btn">
+                <input type="file"  accept="image/*" name="image"  id="file" class="js" style="display: none;">
+                <label for="file"><i class="fa icon fa-2x fa-upload" aria-hidden="true"></i></label>
+            </div>
+            <pre id="pre">Choose your file in jpg format
+Size : 10 KB to 100 KB</pre>
+
+</div>
+
+          <div id="display_img" class="Container2">
+
+          </div>
+
+          <script src="Marksheet.js"></script>
+            
+            <center>
+                <div class="table">
+                <table border="1" id="table">
+                    <tr>
+                    <th class="th">Name</th>
+                    <th class="th">Passing Status</th>
+                    <th class="th">Max Marks</th>
+                    <th class="th">Obtained Marks</th>
+                    </tr>
+                    <tr>
+                        <th class="sub">Mathematics</th>
+                        <td><select class="select">
+                            <option>Passed</option>
+                        </select></td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                      <th class="sub">Science/Science & Technology</th>  
+                      <td>
+                        <select class="select">
+                            <option>Passed</option>
+                        </select>
+                      </td>
+                      <td>
+                        <input class="in" type="text">
+                      </td>
+                      <td>
+                        <input class="in" type="text">
+                      </td>
+                    </tr>
+                    <tr>
+                        <th class="sub">English</th>
+                        <td>
+                            <select class="select">
+                                <option>Passed</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <script src="table.js"></script>
+            </center>
+
+            <center>
+            <button class="btn ">Back</button>
+
+            <button class="btn ">Next</button>
+            </center>
+            
+        </Container>
+    </form> 
+
     </body>
 </html>
