@@ -4,7 +4,7 @@
     <head>
         <title>Registration-Page</title>
         <!-- change or write your page title with the help of title tags-->
-        <link rel="stylesheet" type="text/css" href="Registration.css">
+        <link rel="stylesheet" type="text/css" href="Marksheet.css">
         <!-- connect css file with html useing link tag -->
         <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <!-- link this font-awesome icon css link with html file for accessing all fornt awesome
@@ -16,13 +16,13 @@
             <li>
                 <!--The HTML li element is used to represent an item in a list. ... In menus and unordered lists-->
                 <!--the a tag defines a hyperlink, which is used to link from one page to another-->
-                <a href="#">
+                <a href="Registration.html">
                     <!-- this anchor text for link your home to another page -->
                     <div class="icon">
-                        <i class="fa on fa-book" aria-hidden="true"></i><!-- this is home icon link get form fornt-awesome icon for home button -->	
+                        <i class="fa  fa-book" aria-hidden="true"></i><!-- this is home icon link get form fornt-awesome icon for home button -->	
                         <i class="fa fa-book" aria-hidden="true"></i><!-- copy and paste the home icon link here for hover effect -->	
                     </div>
-                    <div class="name on"><span data-text="Registration">Registration</span></div>
+                    <div class="name"><span data-text="Registration">Registration</span></div>
                     <!-- we are create first menu item name home -->
                 </a>
             </li>
@@ -57,19 +57,19 @@
                         <i class="fa fa-solid fa-graduation-cap" aria-hidden="true "></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
                         <i class="fa fa-solid fa-graduation-cap" aria-hidden="true"></i>		
                     </div>
-                    <div class="name" ><span  data-text="Qualification">Qualification</span></div>
+                    <div class="name" ><span data-text="Qualification">Qualification</span></div>
                     <!-- we are create fourth menu item name portfolio -->
                 </a>
             </li>
             <li>
-                <a href="Marksheet.html">
+                <a href="#">
                     <!-- this anchor text for link your team page to another page -->
                     <div class="icon">
-                        <i class="fa fa-solid fa-file" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
+                        <i class="fa on fa-solid fa-file" aria-hidden="true"></i><!-- this is picture icon link get form fornt-awesome icon for portfolio --> 	
                         <i class="fa fa-solid fa-file" aria-hidden="true"></i>
                         <!-- copy and paste the home icon link here for hover effect -->			
                     </div>
-                    <div class="name"><span data-text="Marksheet">Marksheet</span></div>
+                    <div class="name on"><span data-text="Marksheet">Marksheet</span></div>
                     <!-- we create first menu item name home -->
                 </a>
             </li>
@@ -86,50 +86,95 @@
             </li>
         </ul>
 
+
         <Container class="Registration-Form">
             <form>
-            <h1 class="text">Registration-Details</h1>
 
-            
-            <label class="l namelabel">Candidate's name as per 10th Marksheet </label>
+                <h1 class="text">Upload 10th Marksheet/Certificate</h1>
+
+
+                <div class="box1">
+                <label class="l namelabel">Document No.</label>
             <input class="next name" type="text"><br>
 
-            
-            <label class="l mobilelabel">Mobile No. </label><input class="countrycode" type="text" value="+91" readonly disabled> <input class="mobileno" type="tel"><br>
 
-           
-            <label class="l emaillabel">Email ID</label> <input class="next email" type="email"><br>
+            <div  class="up-btn">
+                <input type="file"  accept="image/*" name="image"  id="file" class="js" style="display: none;">
+                <label for="file"><i class="fa icon fa-2x fa-upload" aria-hidden="true"></i></label>
+            </div>
+            <pre id="pre">Choose your file in jpg format
+Size : 10 KB to 100 KB</pre>
 
-            <label class="l userlabel">Create User ID</label> <input class="next userid" type="text"><br>
+</div>
 
-            <label class="l passlabel">Create Password </label> <input class="next pass" type="password"><br>
+          <div id="display_img" class="Container2">
 
-            <label class="l confirmlabel">Confirm Password </label> <input class="next confirm" type="password"><br>
+          </div>
 
-            <label class="l pinlable">Security Pin</label> <input class="next pin" type="text"><br>
-
-            <label class="l checklable">Security Pin </label> <input class="next check" type="text" readonly disabled> <i class="fa-mine fa fa-refresh" aria-hidden="true"></i><br>
+          <script src="Marksheet.js"></script>
             
             <center>
-            <button class="btn">Next</button>
+                <div class="table">
+                <table border="1" id="table">
+                    <tr>
+                    <th class="th">Name</th>
+                    <th class="th">Passing Status</th>
+                    <th class="th">Max Marks</th>
+                    <th class="th">Obtained Marks</th>
+                    </tr>
+                    <tr>
+                        <th class="sub">Mathematics</th>
+                        <td><select class="select">
+                            <option>Passed</option>
+                        </select></td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                    </tr>
+                    <tr>
+                      <th class="sub">Science/Science & Technology</th>  
+                      <td>
+                        <select class="select">
+                            <option>Passed</option>
+                        </select>
+                      </td>
+                      <td>
+                        <input class="in" type="text">
+                      </td>
+                      <td>
+                        <input class="in" type="text">
+                      </td>
+                    </tr>
+                    <tr>
+                        <th class="sub">English</th>
+                        <td>
+                            <select class="select">
+                                <option>Passed</option>
+                            </select>
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                        <td>
+                            <input class="in" type="text">
+                        </td>
+                    </tr>
+                </table>
+                </div>
+                <script src="table.js"></script>
+            </center>
+
+            <center>
+            <button class="btn ">Back</button>
+
+            <button class="btn ">Next</button>
             </center>
             
-            </form>           
         </Container>
+    </form> 
+
     </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
