@@ -125,60 +125,106 @@ ul li a:hover .name span{
 
 .Registration-Form .text{
 	
-	margin-left: 29px;
+	margin-left: 20px;
 	color: blue;	
 }
 
-.l {
+.Registration-Form .namelabel {
+	margin-top: 15px;
+    font-size: x-large;
+	margin-left: 20px;
+}
+
+.Registration-Form .name {
+	
+}
+
+.Registration-Form .mobilelabel {
 	font-size: x-large;
-	display: inline-block;
-	padding-top: 3.5vh;
-	margin-left: 2vw;
-	width: 30vw;
+	margin-left: 20px;
+	margin-top: 15px;
 }
 
-.next {
-	display: inline-block;
-    width: 310px !important;
-    height: 30px !important;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-     box-sizing: border-box; 
+.Registration-Form .countrycode {
+
 }
 
-.mobileno {
-	margin-left: 2.5vw;
-	display: inline-block;
-	height: 30px !important;
+.Registration-Form .mobileno {
+
 }
 
-.countrycode {
-	display: inline-block;
-	-moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-     box-sizing: border-box; 
-	 height: 30px !important;
-	 width: 100px !important;
-	text-align: center;
-	font-weight: bold;
+.Registration-Form .emaillabel{
+	margin-top: 15px;
+	font-size: x-large;
+	margin-left: 20px;
+}
+
+.Registration-Form .email{
+
+}
+
+.Registration-Form .userlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .userid{
+
+}
+
+.Registration-Form .passlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .pass{
+
+}
+
+.Registration-Form .confirmlabel{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .confirm{
+
+}
+
+.Registration-Form .pinlable {
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .pin{
+
+}
+
+.Registration-Form .checklable{
+	font-size: x-large;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+
+.Registration-Form .check {
+
+}
+
+.Registration-Form .next{
+	border-radius: 15px;
 }
 
 
-.btn {
-	margin-right: 2vw;
-	width: 150px;
-    height: 30px;
-	margin-top: 3vh;
-	border-radius: 6px;
-	border: hidden;
-	background-color: blue;
-	color: white;
-}
 
 
-.fa-mine {
-	margin-left: 1vw;
-}
+
+
+
+
+
 
 
 

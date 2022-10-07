@@ -79,12 +79,11 @@ ul li a .name span{
 	font-size: 18px; /* changing font size */
 	line-height: 20px;
 	transition: 0.5s; /* adding the transition to make it more attractive */
+	
 }
-
 ul li a .on span{
 	color: blue;
 }
-
 /*set and change position, top, width, left, height color of the 'class'.name span:before*/
 ul li a .name span:before{
 	content: attr(data-text);
@@ -96,11 +95,11 @@ ul li a .name span:before{
 	color: blue;
 	
 }
-
 /*style hover effect of ul li a .name span */
 ul li a:hover .name span{
 	transform: translateY(20px);
 }
+
 
 .Registration-Form{
 	position: absolute;
@@ -116,8 +115,8 @@ ul li a:hover .name span{
 	width: 105vh; */
 	top: 18%;
 	left: 15.5%;
-	height: 80vh;
-	width: 134vh;
+	height: 198vh;
+	width: 133vh;
 	background: #fff; 
 	border-radius: 10px; /* add the border radius */
 	box-shadow: 0 10px 30px rgba(0,0,0,.3)
@@ -134,7 +133,7 @@ ul li a:hover .name span{
 	display: inline-block;
 	padding-top: 3.5vh;
 	margin-left: 2vw;
-	width: 30vw;
+	width: 35vw;
 }
 
 .next {
@@ -145,6 +144,26 @@ ul li a:hover .name span{
     -webkit-box-sizing: border-box;
      box-sizing: border-box; 
 }
+
+.nextb {
+	display: inline-block;
+	height: 30px !important;
+	-moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+     box-sizing: border-box; 
+	 background-color: white;
+
+}
+
+.pre {
+display: inline-block;
+}
+
+.radio {
+   display: inline-block;
+  
+}
+
 
 .mobileno {
 	margin-left: 2.5vw;
@@ -175,17 +194,6 @@ ul li a:hover .name span{
 	color: white;
 }
 
-
 .fa-mine {
 	margin-left: 1vw;
 }
-
-
-
-
-
-
-
-
-
-
