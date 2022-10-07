@@ -46,7 +46,6 @@
 }
 
 .label{
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     display: inline-block;
     width: 280px;
     font-size: x-large;
@@ -110,5 +109,5 @@ border: hidden;
 
 .f {
 	padding-top: 10px;
-	margin-left: 41.2vw;
+	margin-left: 41vw;
 }
