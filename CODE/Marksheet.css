@@ -122,6 +122,30 @@ ul li a:hover .name span{
 	box-shadow: 0 10px 30px rgba(0,0,0,.3)
 }
 
+@media (min-width: 1056.13px ) {
+
+
+	.Registration-Form{
+		position: absolute;
+		/*inspect 
+		top: 30%;
+		left: 23%;
+		height: 70vh;
+		width: 50vh; */
+		/* 1352-1007 
+		top: 18%;
+		left: 11%;
+		height: 80vh;
+		width: 105vh; */
+		top: 18%;
+		left: 15.2%;
+		height: 90vh;
+		width: 148vh;
+		background: #fff; 
+		border-radius: 10px; /* add the border radius */
+		box-shadow: 0 10px 30px rgba(0,0,0,.3)
+	}
+
 .Registration-Form .text{
 	
 	margin-left: 29px;
